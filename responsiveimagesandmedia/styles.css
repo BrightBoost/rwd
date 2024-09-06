@@ -1,5 +1,9 @@
 picture, video, img {
     max-width: 100%;
     height: auto;
-  }
+}
+
+.puppy {
+  max-width: 50%;
+}
   

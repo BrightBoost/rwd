@@ -1,0 +1,36 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem; 
+  padding: 1rem;
+}
+
+.element {
+  background-color: pink; 
+  color: white;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 0.5rem;
+}
+
+.element:hover {
+  background-color: #bb00bb; /* Background color on hover */
+}
+
+@media (max-width: 768px) {
+  .container {
+      grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+      grid-template-columns: 1fr; 
+  }
+}

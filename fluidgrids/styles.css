@@ -13,3 +13,8 @@
 body {
     margin: 2rem;
 }
+
+/* changing font-size impacts rem */
+* {
+  font-size: large;
+}
