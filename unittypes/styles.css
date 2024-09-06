@@ -1,0 +1,35 @@
+body {
+  font-size: 16px; /* Base font size in pixels */
+  line-height: 1.5; /* Base line-height value */
+}
+
+h1 {
+  font-size: 2em; /* Using em unit for font size */
+  line-height: 1.2; /* Adjusting line-height for headings */
+}
+
+p {
+  font-size: 1em; /* Using em unit for font size */
+  line-height: 1.5; /* Adjusting line-height for paragraphs */
+}
+
+@media (max-width: 767px) {
+  /* Media query for smaller screens */
+  body {
+    font-size: 14px; /* Responsive font scaling using relative unit */
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Media query for medium screens */
+  body {
+    font-size: 18px; /* Responsive font scaling using relative unit */
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Media query for larger screens */
+  body {
+    font-size: 20px; /* Responsive font scaling using relative unit */
+  }
+}

@@ -1,0 +1,10 @@
+.flexible-image {
+    max-width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+.row {
+    width: 75%;
+    text-align: center;
+}

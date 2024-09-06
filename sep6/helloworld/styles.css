@@ -1,0 +1,16 @@
+h1, p, button {
+    color: #dd33bb;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+    background-color: darkgrey;
+}
+
+.special {
+    background-color: blueviolet;
+}
+
+#superspecial {
+    background-color: green;
+}

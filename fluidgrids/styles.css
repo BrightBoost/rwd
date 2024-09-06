@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+
+.element {
+  background-color: blueviolet;
+  color: white;
+  padding: 4%;
+}
+
+body {
+    margin: 2rem;
+}

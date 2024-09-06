@@ -1,0 +1,29 @@
+@media(max-width: 500px) {
+    img {
+        display: none;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+}
+
+/* medium */
+
+@media(min-width: 501px) and (max-width: 750px) {
+    h1 {
+        font-size: 40px;
+    }
+}
+
+/* large  */
+
+
+@media(min-width: 751px) {
+    img {
+        min-width: 50%;
+    }
+    h1 {
+        display: none;
+    }
+}
